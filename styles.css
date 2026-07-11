@@ -82,3 +82,63 @@ ul li a {
 .hero-btn{
     margin-top: 278px;
 }
+
+.speaker{
+  padding: 80px 0;
+}
+.speaker{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.speaker-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.card{
+    background:#fff;
+    border-radius:12px;
+    /* overflow:hidden; */
+    border:1px solid #E5E7EB;
+}
+
+.card img{
+    width:642px;
+    height:324px;
+    object-fit:cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.content{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container h2{
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content span{
+  font-size: 12px; 
+  font-weight: 500;
+  color: #2563EB;
+}
+
+.content h3{
+  font-size: 20px; 
+  font-weight: bold;
+  color: #0D1B2A;
+}
+
+.content p{
+  font-size: 14px;
+  color: #575757;
+}
