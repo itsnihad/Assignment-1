@@ -139,3 +139,161 @@ ul li a {
   color: #575757;
 }
 
+.pricing{
+  max-width: 1200px;
+  width: 90%;
+  text-align: center;
+  margin: 80px auto;
+}
+
+.pricing h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #0D1B2A;
+  margin-bottom: 12PX;
+}
+
+.pricing p{
+  color: #575757;
+}
+
+.pricing-cards{
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: nowrap;
+  margin: 48px auto; 
+}
+
+.pricing-card{
+    background:#fff;
+    width:370px;
+    padding:32px;
+    border-radius:12px;
+    border:1px solid #E5E7EB;
+    text-align:left;
+
+}
+.card-active{
+    background:#fff;
+    width:370px;
+    padding:32px;
+    border-radius:12px;
+    border:1px solid #E5E7EB;
+    text-align:left;
+
+}
+
+.pricing-card button{
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #2563EB;
+  border-radius: 8px;
+  color: #2563EB;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.pricing-card h4{
+  font-size: 13px;
+  font-weight: 500;
+  color: #888888;
+  text-transform: uppercase;
+}
+.pricing-card h2{
+  font-size: 44px;
+  font-weight: bold;
+  color: #0D1B2A;
+}
+.pricing-card span{
+  font-size: 13px; 
+  color: #888888;
+}
+.card-active h4{
+  font-size: 13px;
+  font-weight: 500;
+  color: #93C5FD;
+  text-transform: uppercase;
+}
+.card-active h2{
+  font-size: 44px;
+  font-weight: bold;
+  color: #fff;
+}
+.card-active span{
+  font-size: 13px; 
+  color: #FFFFFF;
+}
+
+.card-active{
+    background: #0D1B2A;
+    width:370px;
+    padding:32px;
+    border-radius:12px;
+    border:1px solid #E5E7EB;
+    text-align:left;
+}
+
+.card-active button{
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #2563EB;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #2563EB;
+  margin-top: 20px;
+}
+
+.pricing-card hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 20px 0;
+}
+.card-active hr{
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 20px 0;
+}
+
+.pricing-card ul{
+    list-style:none;
+    margin:10px 0;
+}
+
+.pricing-card ul li{
+    margin:15px 0;
+    position:relative;
+    padding-left:18px;
+    color:#333333;
+}
+
+.pricing-card ul li::before{
+    content:"•";
+    color:#2563EB;
+    position:absolute;
+    left:0;
+}
+
+.card-active ul{
+    list-style:none;
+    margin:10px 0;
+}
+.card-active ul li{
+    margin:15px 0;
+    position:relative;
+    padding-left:18px;
+    color:#FFFFFF;
+}
+
+.card-active li::before{
+    content:"•";
+    color:#60A5FA;
+    position:absolute;
+    left:0;
+}
+
